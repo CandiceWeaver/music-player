@@ -1,12 +1,12 @@
-import { View, Text } from "react-native";
 import React from "react";
 import MusicPlayer from "./src/screens/MusicPlayer";
+import Container from "./src/components/Container";
 
 const App = () => {
   return (
-    <View>
+    <Container flex={1}>
       <MusicPlayer />
-    </View>
+    </Container>
   );
 };
 
